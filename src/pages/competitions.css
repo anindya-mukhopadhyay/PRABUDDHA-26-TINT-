@@ -1,0 +1,61 @@
+.competitions {
+  min-height: 100vh;
+  background: black;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 120px 80px;
+}
+
+/* Giant background text */
+.bg-text {
+  position: absolute;
+  font-size: 38vw;
+  font-weight: 900;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(120, 0, 0, 0.45);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Header */
+.comp-header {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.comp-header h1 {
+  font-size: 72px;
+  letter-spacing: 8px;
+}
+
+.comp-header span {
+  color: red;
+}
+
+/* Grid */
+.comp-grid {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.comp-grid img {
+  width: 240px;
+  height: 420px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+
+.comp-grid img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
