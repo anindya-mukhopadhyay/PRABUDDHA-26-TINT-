@@ -1,0 +1,18 @@
+.events {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 40px;
+  border-radius: 12px;
+  width: 200px;
+  font-size: 20px;
+}

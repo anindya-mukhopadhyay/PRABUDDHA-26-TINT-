@@ -1,0 +1,69 @@
+.hero {
+  min-height: 100vh;
+  background: #f4f2ec;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Cinematic editorial title */
+.hero-title {
+  position: relative;
+  z-index: 1;
+  margin-top: 180px;
+
+  text-align: center;
+  white-space: nowrap;
+
+  font-size: clamp(18rem, 24vw, 65rem);
+  line-height: 0.98;
+  letter-spacing: 0em;
+  transform: scaleY(1.15);
+
+  background: linear-gradient(to bottom, #cd2323, #b71f1f, #5a0505);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Floating pills */
+.pills {
+  position: absolute;
+  left: 60px;
+  top: 120px;
+  z-index: 5;
+}
+
+.pills span {
+  display: block;
+  margin-bottom: 12px;
+  padding: 8px 20px;
+  border: 1px solid black;
+  border-radius: 999px;
+  background: white;
+}
+
+/* Subtitle */
+.subtitle {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 11px;
+}
+
+/* Robot */
+.robot {
+  position: absolute;
+  right: -14%;
+  bottom: 0;
+  width: 820px;
+  height: 680px;
+  z-index: 2;
+}
+
+.robot iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.nav-inner {
+  max-width: 1500px;
+  margin: auto;
+  padding: 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar,
+.navbar * {
+  color: black;
+}
+
+.navbar.dark,
+.navbar.dark * {
+  color: white;
+}
+
+.links a {
+  margin: 0 24px;
+  cursor: pointer;
+}
+
+.pill {
+  border: 1px solid currentColor;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: none;
+}
+
+.menu {
+  border: 1px solid currentColor;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.links a {
+  text-decoration: none;
+  color: inherit;
+}
