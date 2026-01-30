@@ -33,9 +33,10 @@ export default function Competitions() {
       >
         <h1>CATEGORIES</h1>
 
-        <div className="category-card red">PERFORMING ARTS</div>
-        <div className="category-card dark">CREATIVE ARTS</div>
-        <div className="category-card red">QUIZ & LITERARY</div>
+        <div className="category-card red">HARDWARE</div>
+        <div className="category-card dark">SOFTWARE</div>
+        <div className="category-card red">QUIZ & </div>
+        <div className="category-card dark">BUSINESS</div>
       </motion.section>
 
       {/* SPOTLIGHT */}
