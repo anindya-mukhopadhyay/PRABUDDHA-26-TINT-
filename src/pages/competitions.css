@@ -1,30 +1,97 @@
-.competitions {
+/* ONLY competitions page background */
+/* Saarang-style HERO */
+.comp-section.hero {
   background: black;
+  position: relative;
+  overflow: hidden;
+  padding-top: 200px;
+}
+
+/* Giant red background word */
+.comp-section.hero .bg-text {
+  position: absolute;
+  font-size: 28vw;
+  font-weight: 900;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(120, 0, 0, 0.45);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Title */
+.hero-title {
+  position: relative;
+  z-index: 2;
+  font-size: 72px;
+  letter-spacing: 8px;
+  text-align: center;
   color: white;
 }
 
-/* Full screen sections */
+.hero-title span {
+  color: red;
+}
+
+/* Posters */
+.poster-row {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.poster-row img {
+  width: 240px;
+  height: 420px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.4s ease;
+  transform: translateY(40px);
+}
+
+.poster-row img:nth-child(odd) {
+  transform: translateY(-40px);
+}
+
+.poster-row img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.competitions {
+  background: black;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Each section */
 .comp-section {
   min-height: 100vh;
   padding: 120px 80px;
   position: relative;
 }
 
+/* Headings */
 .comp-section h1 {
   font-size: 72px;
-  color: red;
+  letter-spacing: 6px;
   margin-bottom: 60px;
+  color: white;
 }
 
 .comp-section span {
   color: red;
 }
 
-/* HERO */
-.hero {
-  background: black;
-}
-
+/* HERO posters */
 .poster-row {
   display: flex;
   justify-content: center;
@@ -37,7 +104,7 @@
   height: 420px;
   object-fit: cover;
   filter: grayscale(100%);
-  transition: 0.4s;
+  transition: 0.4s ease;
 }
 
 .poster-row img:hover {
@@ -45,11 +112,12 @@
   transform: scale(1.05);
 }
 
-/* Categories */
+/* CATEGORY cards */
 .category-card {
   padding: 60px;
   font-size: 40px;
   margin-bottom: 40px;
+  color: white;
 }
 
 .category-card.red {
@@ -60,7 +128,7 @@
   background: #111;
 }
 
-/* Spotlight */
+/* Spotlight grid */
 .spot-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -70,9 +138,13 @@
 .spot {
   background: #300;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
 }
 
-/* Passes */
+/* Pass cards */
 .pass-grid {
   display: flex;
   gap: 40px;
@@ -83,4 +155,6 @@
   border: 1px solid red;
   padding: 60px;
   width: 300px;
+  font-size: 28px;
+  text-align: center;
 }
