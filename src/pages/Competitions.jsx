@@ -1,7 +1,9 @@
 import { motion } from "framer-motion"
+import { useNavigate } from "react-router-dom"
 import "./competitions.css"
 
 export default function Competitions() {
+  const navigate = useNavigate()
   return (
     <div className="competitions">
 
@@ -31,13 +33,26 @@ export default function Competitions() {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
+
         <h1>CATEGORIES</h1>
 
-        <div className="category-card red">HARDWARE</div>
-        <div className="category-card dark">SOFTWARE</div>
-        <div className="category-card red">QUIZ  </div>
-        <div className="category-card dark">BUSINESS</div>
+        <div className="category-card red" onClick={() => navigate("/hardware")}>
+          HARDWARE
+        </div>
+
+        <div className="category-card dark" onClick={() => navigate("/software")}>
+          SOFTWARE
+        </div>
+
+        <div className="category-card red" onClick={() => navigate("/quiz")}>
+          QUIZ
+        </div>
+
+        <div className="category-card dark" onClick={() => navigate("/business")}>
+          BUSINESS
+        </div>
       </motion.section>
+
 
       {/* SPOTLIGHT */}
       <motion.section
