@@ -12,7 +12,7 @@ export default function HeroSection() {
       </div>
 
       <motion.h1
-        className="hero-title"
+        className="home-hero-title"
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.7, ease: "easeOut" }}

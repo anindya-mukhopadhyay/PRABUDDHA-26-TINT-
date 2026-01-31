@@ -6,7 +6,7 @@
 }
 
 /* Cinematic editorial title */
-.hero-title {
+.home-hero-title {
   position: relative;
   z-index: 1;
   margin-top: 180px;
@@ -24,6 +24,7 @@
   background-clip: text;
   color: transparent;
 }
+
 
 /* Floating pills */
 .pills {

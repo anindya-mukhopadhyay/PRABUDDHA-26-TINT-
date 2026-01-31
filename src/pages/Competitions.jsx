@@ -15,10 +15,10 @@ export default function Competitions() {
 
       <div className="poster-row">
         <img src="https://697d3813c4feaabd2d115edc.imgix.net/SAVE_20210324_194657.webp" />
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" />
-        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" />
-        <img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc" />
-        <img src="https://697d3813c4feaabd2d115edc.imgix.net/pexels-photo-6424587.jpeg" />
+        <img src="https://697d3813c4feaabd2d115edc.imgix.net/coding-quiz.jpg" />
+        <img src="https://697d3813c4feaabd2d115edc.imgix.net/pexels-vanessa-loring-7868836.jpg" />
+        <img src="https://697d3813c4feaabd2d115edc.imgix.net/pexels-a-darmel-8133989.jpg" />
+        <img src="https://697d3813c4feaabd2d115edc.imgix.net/pexels-mizunokozuki-12899140.jpg" />
       </div>
       </section>
 
@@ -35,7 +35,7 @@ export default function Competitions() {
 
         <div className="category-card red">HARDWARE</div>
         <div className="category-card dark">SOFTWARE</div>
-        <div className="category-card red">QUIZ & </div>
+        <div className="category-card red">QUIZ  </div>
         <div className="category-card dark">BUSINESS</div>
       </motion.section>
 
