@@ -1,4 +1,4 @@
-.hardware {
+.universal {
   min-height: 100vh;
   background: #050505;
   color: white;
@@ -7,7 +7,7 @@
 }
 
 /* Header */
-.hardware-header h1 {
+.universal-header h1 {
   font-size: 120px;
   color: red;
   letter-spacing: 8px;
