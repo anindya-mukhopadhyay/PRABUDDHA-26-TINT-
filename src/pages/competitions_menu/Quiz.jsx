@@ -1,4 +1,4 @@
-import "./quiz.css"
+import "./universal.css"
 
 const quizzes = [
   { title: "Tech Quiz", desc: "AI, coding & modern tech" },
@@ -11,15 +11,19 @@ const quizzes = [
 
 export default function Quiz() {
   return (
-    <div className="quiz">
+    <div className="universal">
 
-      <h1 className="quiz-title">
-        QUIZ <span>ARENA</span>
-      </h1>
+      {/* Header */}
+      <div className="universal-header">
+        <h1>QUIZ</h1>
+        <p>ARENA</p>
+      </div>
 
-      <div className="quiz-grid">
+      {/* Grid */}
+      <div className="universal-list">
         {quizzes.map((q, i) => (
-          <div className="quiz-card" key={i}>
+          <div className="universal-item" key={i}>
+            <span className="code">QZ {i + 1}</span>
             <h2>{q.title}</h2>
             <p>{q.desc}</p>
             <button>PLAY</button>

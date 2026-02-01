@@ -13,6 +13,7 @@ import Quiz from "./pages/competitions_menu/Quiz"
 import Business from "./pages/competitions_menu/Business"
 import Games from "./pages/competitions_menu/Games"
 
+
 export default function App() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/business" element={<Business />} />
         <Route path="/games" element={<Games />} />
+        
       </Routes>
     </>
   )

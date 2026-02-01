@@ -1,4 +1,4 @@
-import "./hardware.css"
+import "./universal.css"
 
 const events = [
   { title: "Robotics", code: "H-01", desc: "Autonomous battle bots" },
@@ -11,16 +11,18 @@ const events = [
 
 export default function Hardware() {
   return (
-    <div className="hardware">
+    <div className="universal">
 
-      <div className="hardware-header">
+      {/* Header */}
+      <div className="universal-header">
         <h1>HARDWARE</h1>
         <p>ENGINEERING · MACHINES · MECHANICS</p>
       </div>
 
-      <div className="hardware-list">
+      {/* Grid */}
+      <div className="universal-list">
         {events.map((e, i) => (
-          <div className="hardware-item" key={i}>
+          <div className="universal-item" key={i}>
             <span className="code">{e.code}</span>
             <h2>{e.title}</h2>
             <p>{e.desc}</p>

@@ -1,4 +1,4 @@
-import "./business.css"
+import "./universal.css"
 
 const events = [
   { title: "Startup Pitch", desc: "Pitch your idea to real investors" },
@@ -11,15 +11,19 @@ const events = [
 
 export default function Business() {
   return (
-    <div className="business">
+    <div className="universal">
 
-      <h1 className="business-title">
-        BUSINESS <span>ARENA</span>
-      </h1>
+      {/* Header */}
+      <div className="universal-header">
+        <h1>BUSINESS</h1>
+        <p>ARENA</p>
+      </div>
 
-      <div className="business-grid">
+      {/* Grid */}
+      <div className="universal-list">
         {events.map((e, i) => (
-          <div className="business-card" key={i}>
+          <div className="universal-item" key={i}>
+            <span className="code">BS {i + 1}</span>
             <h2>{e.title}</h2>
             <p>{e.desc}</p>
             <button>ENTER</button>

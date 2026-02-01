@@ -1,4 +1,4 @@
-import "./hardware.css"
+import "./universal.css"
 
 const events = [
   { code: "S-01", title: "Hackathon", desc: "48-hour national coding war" },
@@ -11,16 +11,16 @@ const events = [
 
 export default function Software() {
   return (
-    <div className="hardware">
+    <div className="universal">
 
-      <div className="hardware-header">
+      <div className="universal-header">
         <h1>SOFTWARE</h1>
         <p>CODE · AI · DEVELOPMENT</p>
       </div>
 
-      <div className="hardware-list">
+      <div className="universal-list">
         {events.map((e,i) => (
-          <div className="hardware-item" key={i}>
+          <div className="universal-item" key={i}>
             <span className="code">{e.code}</span>
             <h2>{e.title}</h2>
             <p>{e.desc}</p>
