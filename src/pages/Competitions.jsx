@@ -51,6 +51,9 @@ export default function Competitions() {
         <div className="category-card dark" onClick={() => navigate("/business")}>
           BUSINESS
         </div>
+        <div className="category-card red" onClick={() => navigate("/games")}>
+          GAMES
+        </div>
       </motion.section>
 
 

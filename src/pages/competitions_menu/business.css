@@ -1,0 +1,60 @@
+.business {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #050505, #0b0b0b);
+  color: white;
+  padding: 140px 80px;
+}
+
+/* Title */
+.business-title {
+  font-size: 70px;
+  letter-spacing: 8px;
+  margin-bottom: 90px;
+}
+
+.business-title span {
+  color: gold;
+}
+
+/* Grid */
+.business-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* Cards */
+.business-card {
+  background: #0e0e0e;
+  border: 1px solid rgba(255,215,0,0.3);
+  padding: 50px;
+  transition: 0.4s ease;
+  position: relative;
+}
+
+.business-card:hover {
+  transform: translateY(-10px);
+  border-color: gold;
+  box-shadow: 0 0 50px rgba(255,215,0,0.3);
+}
+
+.business-card h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.business-card p {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.business-card button {
+  background: gold;
+  color: black;
+  border: none;
+  padding: 12px 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
