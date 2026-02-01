@@ -65,13 +65,13 @@ export default function Competitions() {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <h1>SPOTLIGHT</h1>
+        <h1>GUEST</h1>
 
         <div className="spot-grid">
-          <div className="spot">Artist 1</div>
-          <div className="spot">Artist 2</div>
-          <div className="spot">Artist 3</div>
-          <div className="spot">Artist 4</div>
+          <div className="spot">GUEST 1</div>
+          <div className="spot">GUEST 2</div>
+          <div className="spot">GUEST 3</div>
+          <div className="spot">GUEST 4</div>
         </div>
       </motion.section>
 
