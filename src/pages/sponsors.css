@@ -1,0 +1,71 @@
+.sponsors {
+  background: #f4f2ec;
+  padding: 100px 60px;   /* reduced from 140px 80px */
+}
+
+/* Each tier */
+.sponsor-block {
+  margin-bottom: 70px;   /* reduced from 120px */
+  text-align: center;
+}
+
+.sponsor-label {
+  letter-spacing: 4px;
+  font-size: 13px;
+  color: #b71f1f;
+  margin-bottom: 24px;   /* reduced from 40px */
+}
+
+/* Hero sponsor */
+.sponsor-block.hero {
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+/* Logos */
+.sponsor-logo {
+  object-fit: contain;
+  transition: 0.35s ease;
+  filter: grayscale(100%);
+}
+
+.sponsor-logo:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+/* Size tuning */
+.sponsor-logo.huge {
+  width: 420px;
+  height: 130px;
+}
+
+.sponsor-logo.large {
+  width: 280px;
+  height: 100px;
+}
+
+.sponsor-logo.medium {
+  width: 200px;
+  height: 80px;
+}
+
+.sponsor-logo.small {
+  width: 140px;
+  height: 60px;
+}
+
+/* Layout spacing */
+.sponsor-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;     /* reduced from 80px */
+  flex-wrap: wrap;
+}
+
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;     /* reduced from 60px */
+  justify-items: center;
+}

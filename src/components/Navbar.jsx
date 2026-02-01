@@ -36,7 +36,7 @@ export default function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/merch">Merch</Link>
           <Link to="/proshows">Proshows</Link>
-          <Link to="/accommodation">Accommodation</Link>
+          <Link to="/workshops">Workshops</Link>
           <Link to="/competitions">Competitions</Link>
           <Link to="/sponsors">Sponsors</Link>
         </div>

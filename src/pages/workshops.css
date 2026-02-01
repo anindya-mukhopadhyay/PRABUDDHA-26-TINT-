@@ -1,0 +1,94 @@
+.workshops {
+  min-height: 100vh;
+  background: #f4f2ec;
+  padding: 140px 80px;
+  color: black;
+}
+
+/* Title */
+.workshops-title {
+  font-size: 80px;
+  letter-spacing: 8px;
+  margin-bottom: 10px;
+}
+
+.workshops-title span {
+  color: #b71f1f;
+}
+
+/* Subtitle */
+.workshops-sub {
+  color: #555;
+  letter-spacing: 3px;
+  margin-bottom: 80px;
+}
+
+/* Grid */
+.workshop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+/* Cards */
+.workshop-card {
+  background: white;
+  padding: 50px;
+  border: 2px solid rgba(0,0,0,0.1);
+  position: relative;
+  transition: 0.4s ease;
+}
+
+.workshop-card:hover {
+  transform: translateY(-10px);
+  border-color: #b71f1f;
+  box-shadow: 0 0 40px rgba(183,31,31,0.2);
+}
+
+/* Date badge */
+.workshop-date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #b71f1f;
+  color: white;
+  padding: 8px 16px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+/* Text */
+.workshop-card h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.workshop-card p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+.workshop-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workshop-footer span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.workshop-footer button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.workshop-footer button:hover {
+  background: #b71f1f;
+}

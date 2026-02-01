@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Merch from "./pages/Merch"
 import Proshows from "./pages/Proshows"
-import Accommodation from "./pages/Accommodation"
+import Workshops from "./pages/Workshops"
 import Competitions from "./pages/Competitions"
 import Sponsors from "./pages/Sponsors"
 import Hardware from "./pages/competitions_menu/Hardware"
@@ -22,7 +22,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/merch" element={<Merch />} />
         <Route path="/proshows" element={<Proshows />} />
-        <Route path="/accommodation" element={<Accommodation />} />
+        <Route path="/workshops" element={<Workshops />} />
         <Route path="/competitions" element={<Competitions />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/hardware" element={<Hardware />} />
