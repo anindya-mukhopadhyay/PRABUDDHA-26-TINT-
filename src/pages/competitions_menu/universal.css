@@ -1,0 +1,77 @@
+.hardware {
+  min-height: 100vh;
+  background: #050505;
+  color: white;
+  padding: 140px 100px;
+  font-family: monospace;
+}
+
+/* Header */
+.hardware-header h1 {
+  font-size: 120px;
+  color: red;
+  letter-spacing: 8px;
+}
+
+.universal-header p {
+  color: #777;
+  margin-bottom: 80px;
+  letter-spacing: 4px;
+}
+
+/* Grid */
+.universal-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+/* Cards */
+.universal-item {
+  border: 1px solid #222;
+  padding: 50px;
+  position: relative;
+  background: linear-gradient(135deg, #080808, #111);
+  transition: 0.3s ease;
+}
+
+.universal-item:hover {
+  border-color: red;
+  box-shadow: 0 0 50px rgba(255,0,0,0.3);
+}
+
+/* Code tag */
+.code {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: red;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.universal-item h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hardware-item p {
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+/* Button */
+.universal-item button {
+  background: none;
+  border: 1px solid red;
+  color: red;
+  padding: 12px 30px;
+  letter-spacing: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.universal-item button:hover {
+  background: red;
+  color: black;
+}
